@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Landscape" verbose="1" annotations="JDK" parallel="tests">
+    <test name="My Notes UI Tests" parallel="none">
+        <packages>
+           <package name="tests"/>
+        </packages>
+    </test>
+</suite>
